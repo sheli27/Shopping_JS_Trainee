@@ -1,0 +1,108 @@
+body{
+	font-family: arial;
+}
+.content{
+	width: 800px;
+	min-height: 200px;
+	margin: 0 auto;
+}
+.menu{
+	width: 180px;
+	margin-right: 20px;
+	min-height: 200px;
+	float: left;
+}
+.main{
+	width: 600px;
+	min-height: 200px;
+	float: left;
+}
+.button{
+	color: #007bff;
+	background: none;
+	border: none;
+	width: 100%;
+	font-size: 24px;
+	cursor: pointer;
+	padding: 10px 10px;
+	user-select: none;
+	text-align: left;
+}
+.button:focus{
+	border-radius: 4px;
+	background: #007bff;
+	color: white;
+}
+.header{
+	background: #e9ecef;
+	border-radius: 4px;
+	min-height: 100px;
+	padding: 10px 10px 30px 10px;
+}
+.input{
+	border: 1px solid #d4dadf;
+	border-radius: 2px;
+	padding: 5px 10px;
+	outline: none;
+	font-size: 16px;
+}
+.w40{
+	width: 32%;
+}
+.w15{
+	width: 15%;
+}
+.addbutton{
+	font-size: 16px;
+	padding: 5px 20px;
+	cursor: pointer;
+	border-radius: 2px;
+	background: #28a745;
+	color: white;
+	border: none;
+}
+.table_block{
+	margin-top: 20px;
+}
+.table{
+	width: 100%;
+	border-spacing: 0px 0px;
+}
+th{
+	background: black;
+	color: white;
+	padding: 10px 5px;
+}
+td{
+	text-align: center;
+	padding: 10px 5px;
+}
+.abutton{
+	height: 30px;
+	width: 30px;
+	border-radius: 2px;
+	line-height: 30px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+}
+.green{
+	background: #28a745;
+}
+.yellow{
+	background: #ffc107;
+}
+.red{
+	background: #dc3545;
+}
+td:first-child{
+	font-weight: 900;
+}
+.foot{
+	background: #dadada;
+}
+.hidden{
+	display: none;
+}
